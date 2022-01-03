@@ -1,0 +1,21 @@
+{
+    "name": "adbuljeleel.yusuff/test-app",
+    "description": "test app for composer and php unit test without framework",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TestApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abduljeleelng",
+            "email": "abduljeleelng@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpoption/phpoption": "1.8.x-dev",
+        "phpunit/phpunit": "9.5.x-dev"
+    }
+}
